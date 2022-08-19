@@ -1,0 +1,192 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar One */
+.navbarone {
+  background-color: white;
+}
+
+.middlenav {
+  background-color: #0019A5;
+}
+
+a {
+  margin: 2px;
+  color: rgb(2, 1, 1);
+  font-size: 15px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Navbar Two */
+
+.navbartwo {
+  background-color: #0019A5;
+  width: 100%;
+}
+
+a.navsection {
+  color: white;
+  font-size: 30px;
+  margin: 22px;
+
+}
+
+/* Drpdwnhover */
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropbtn {
+  color: #ddd;
+  font-size: 22px;
+  margin: 22px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #0019A5;
+}
+
+/* close button */
+
+.navbarthree {
+  background-color: #01B7B4;
+}
+
+.bgcolor {
+  background-color: #01B7B4;
+  margin-left: 12px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  margin-top: -1px;
+  /* Prevent double borders */
+  margin-left: 42px;
+  background-color: #01B7B4;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: block;
+  position: relative;
+}
+
+.close {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  right: 0%;
+  padding: 12px 16px;
+  transform: translate(0%, -50%);
+}
+
+.close:hover {
+  background: #01B7B4;
+}
+
+/* section */
+.imgside {
+  width: 100%;
+}
+
+.top-left {
+  position: absolute;
+  top: 70%;
+  left: 16px;
+}
+
+.textedit {
+  color: white;
+  margin-left: 32px;
+}
+
+/* button */
+.button {
+  border-radius: 4px;
+  background-color: #ffffff;
+  border: none;
+  color: #0f0e0e;
+  text-align: center;
+  font-size: 28px;
+  padding: 2px;
+  width: 300px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  margin-left: 32px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+/* imgside1 */
+.imgside1 {
+  float: right;
+}
+
+.lefttext {
+  float: left;
+  margin-top: 72px;
+}
+
+h1{
+  font-size: 43px;
+}
+
+.textedit1{
+  color: rgb(31, 98, 125);
+}
