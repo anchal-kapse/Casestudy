@@ -5,8 +5,20 @@
 
    <meta charset="utf-8">
    <meta name="viewport" content="width=device-width, initial-scale=1">
+   <!-- Bootstrap css -->
    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+   <!-- css link -->
    <link rel="stylesheet" href="mobile_service_provider.css">
+
+   <!-- icon -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+   <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    -->
+
    <title>Mobile_srvc_provider</title>
 </head>
 
@@ -15,13 +27,15 @@
    <!-- Nav Portion -->
    <div class="header">
       <div class="">
-         <div class="navbarone">
-            <nav class="navbar">
-               <div class="container">
-                  <a>Personal</a>
-                  <a href="#" style="text-decoration: none;"> Sign in or register</a>
-               </div>
-            </nav>
+         <div class="container">
+            <div class="navbarone">
+               <nav class="navbar">
+                  <div class="container">
+                     <a>Personal</a>
+                     <a href="#" style="text-decoration: none;"> Sign in or register</a>
+                  </div>
+               </nav>
+            </div>
          </div>
          <div class="navbartwo">
             <nav class="navbar">
@@ -30,16 +44,44 @@
                      <nav class="navtwo me-auto mb-2">
                         <div class="container">
                            <a class="dropbtn" style="font-size: 45px; text-decoration: none; ">O<sub>2</sub></a>
-                           <a class="dropbtn" style="text-decoration: none;">Home</a>
                            <div class="dropdown">
                               <a class="dropbtn" style="text-decoration: none;">Shop</a>
                               <div class="dropdown-content">
-                                 <a href="#">Phones</a>
-                                 <a href="#">Upgrade</a>
-                                 <a href="#">Apple iphones</a>
+                                 <div class="row">
+                                    <div class="column">
+                                       <h3>Phones</h3>
+                                       <a href="#">Upgrades</a>
+                                       <a href="#">Android Phones</a>
+                                       <a href="#">Phones</a>
+                                    </div>
+                                    <div class="column">
+                                       <h3>Tablets</h3>
+                                       <a href="#">iPad</a>
+                                       <a href="#">Dongles</a>
+                                       <a href="#">Tablet</a>
+                                    </div>
+                                 </div>
                               </div>
                            </div>
-                        </div>
+                           <div class="dropdown">
+                              <a class="dropbtn" style="text-decoration: none;">Help</a>
+                              <div class="dropdown-content">
+                                 <div class="row">
+                                    <div class="column">
+                                       <h3>Queries</h3>
+                                       <a href="#">Track my order</a>
+                                       <a href="#">Sim card</a>
+                                       <a href="#">Top-up</a>
+                                    </div>
+                                    <div class="column">
+                                       <h3>Device Help</h3>
+                                       <a href="#">Lost or stolen</a>
+                                       <a href="#">Faulty Device</a>
+                                       <a href="#">How to use your device</a>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
                      </nav>
                   </div>
                </div>
@@ -57,29 +99,94 @@
          </div>
       </div>
    </div>
+
+   <!-- End Nav portion  -->
+
    <!-- Section Part -->
-   <div class="section">
-      <div class="">
+   <div class="sectionpart">
+      <div class="section">
          <div>
             <img class="imgside" src="img/img.jpg" alt="">
             <div class="top-left">
-               <h2 class="textedit">Discover o2 Switch Up</h2>
+               <h2 class="textedit">Discover o2 <br>Switch Up</h2>
                <span class="textedit">Switch to a new phone, whenever you like, with no extra charges.</span>
                <div><button class="button"><span>Learn More </span></button></div>
             </div>
          </div>
       </div>
-      <div class="container">
-         <div>
-            <img class="imgside1" src="img/glxy.jpg" alt="" style="width: 50%;">
-            <div class="lefttext">
-               <h1 class="textedit1">Meet New Galaxy Z4 Fold</h1>
-               <span class="textedit1">Switch to a new phone, whenever you like, with no extra charges.</span>
-               <div><button class="button"><span style="background-color:skyblue">Pre Order Now</span></button></div>
-            </div>
+
+
+      <div class="container-fluid">
+         <img src="./img/glxy.jpg" class="imgside1" alt="" srcset="">
+         <div class="top-right">
+            <h2 class="textedit1">Meet the new <br> Galaxy Z Fold4</h2>
+            <span class="textedit1">Switch to a new phone, whenever you like, with no extra charges.</span>
+            <div><button class="button"><span class="btncolor">Pre Order Now</span></button></div>
          </div>
       </div>
    </div>
+   <!-- End Section Part -->
+   <footer>
+      <div class="container">
+         <div class="footer">
+            <div class="row">
+               <div class="col order-last">
+                  <p style="font-size: 26px;">Help and Support</p>
+                  <p>Help home</p>
+                  <p>Contact us</p>
+                  <p>Collection and delivery</p>
+                  <p style="font-size: 26px;">Shop</p>
+                  <p>Phones</p>
+                  <p>Tablets</p>
+                  <p>Pay Monthly Sim</p>
+                  <p>Pay As You Go Sim</p>
+               </div>
+
+               <div class="col">
+                  <p style="font-size: 26px;">Popular in Shop</p>
+                  <p>iPhone</p>
+                  <p>iPhone 13</p>
+                  <p>iPhone 13 Pro</p>
+                  <p>iPhone 13 Pro Max</p>
+                  <p>Apple Watch Series 7</p>
+                  <p>Samsung Galaxy S22 Ultra</p>
+                  <p>Samsung Galaxy Z Flip4</p>
+                  <p>Samsung Galaxy Z Fold4</p>
+               </div>
+               <div class="col order-first">
+                  <br>
+                  <p><i class="bi bi-shop"></i>&nbsp;&nbsp;Find a Store</p><br>
+                  <p><i class="bi bi-broadcast-pin"></i>&nbsp;&nbsp;Check our network</p><br>
+                  <p><i class="bi bi-person"></i>&nbsp;&nbsp;Sign in to My o<sub>2</sub></p><br>
+                  <p><i class="bi bi-cart"></i>&nbsp;&nbsp;Track my order</p><br>
+                  <p><i class="bi bi-search"></i>&nbsp;&nbsp;Search</p>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col order-first">
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-youtube"></i></a>
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+               </div>
+            </div>
+            <br>
+            <div class="row">
+               <div class="para">
+                  <p>About O2 | Our Blueprint | Careers | News & PR | Sponsorship | Virgin Media and O2
+                     Personal Legal Menu</p>
+                  <p>Access for all | Terms & Conditions | Privacy policy | Cookie policy | Modern Slavery Statement
+                     © 2022 Telefónica UK Limited</p>
+                  <p>In relation to consumer credit, Telefónica UK Limited is authorised and regulated by the Financial
+                     Conduct
+                     Authority (Reference Number 718822)</p>
+               </div>
+            </div>
+         </div>
+      </div>
+   </footer>
+
+
    <!-- Option 1: Bootstrap Bundle with Popper -->
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
    <script>
